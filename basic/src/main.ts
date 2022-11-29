@@ -102,7 +102,7 @@ const client = new Client({
 });
 
 client.on('ready', async () => {
-	console.log('Discord.js client is ready!');
+	console.log('discord.js client is ready!');
 
 	/**
 	 * Try to get our song ready to play for when the bot joins a voice channel

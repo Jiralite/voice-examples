@@ -1,7 +1,7 @@
 {
 	"name": "@discordjs/voice-examples-base",
 	"version": "0.0.1",
-	"description": "An example receiver bot written using @discordjs/voice",
+	"description": "An example receiver bot written using @discordjs/voice.",
 	"main": "dist/bot.js",
 	"scripts": {
 		"start": "npm run build && node dist/bot",

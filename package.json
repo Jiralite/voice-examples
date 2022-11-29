@@ -1,7 +1,7 @@
 {
 	"name": "@discordjs/voice-examples",
 	"version": "0.0.0",
-	"description": "A collection of examples showcasing @discordjs/voice",
+	"description": "A collection of examples showcasing @discordjs/voice.",
 	"private": true,
 	"scripts": {
 		"build:check": "turbo run build:check",

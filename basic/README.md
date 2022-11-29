@@ -59,7 +59,7 @@ const client = new Client({
 client.login('token here');
 
 client.on('ready', async () => {
-	console.log('Discord.js client is ready!');
+	console.log('discord.js client is ready!');
 
 	try {
 		await playSong();

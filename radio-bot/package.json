@@ -1,7 +1,7 @@
 {
 	"name": "discord-radio-bot",
 	"version": "1.0.0",
-	"description": "A proof-of-concept radio bot for @discordjs/voice",
+	"description": "A proof-of-concept radio bot for @discordjs/voice.",
 	"main": "dist/bot.js",
 	"scripts": {
 		"start": "npm run build && node dist/bot.js",

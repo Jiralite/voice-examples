@@ -13,9 +13,9 @@ const trackedClients = new Set<Client>();
 const trackedShards = new Map<number, Set<Snowflake>>();
 
 /**
- * Tracks a Discord.js client, listening to VOICE_SERVER_UPDATE and VOICE_STATE_UPDATE events
+ * Tracks a discord.js client, listening to VOICE_SERVER_UPDATE and VOICE_STATE_UPDATE events
  *
- * @param client - The Discord.js Client to track
+ * @param client - The discord.js Client to track
  */
 function trackClient(client: Client) {
 	if (trackedClients.has(client)) return;
